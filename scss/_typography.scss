@@ -1,0 +1,410 @@
+/* Assistant */
+
+@import url('https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800');
+
+// @font-face {
+//     font-family: 'assistantbold';
+//     src: url('../assets/fonts/assistant/assistant-bold-webfont.ttf') format('ttf'),
+//          url('../assets/fonts/assistant/assistant-bold-webfont.woff2') format('woff2'),
+//          url('../assets/fonts/assistant/assistant-bold-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+// @font-face {
+//     font-family: 'assistantextrabold';
+//     src: url('../assets/fonts/assistant/assistant-extrabold-webfont.ttf') format('ttf'),
+//          url('../assets/fonts/assistant/assistant-extrabold-webfont.woff2') format('woff2'),
+//          url('../assets/fonts/assistant/assistant-extrabold-webfont.woff') format('woff');
+
+//     font-weight: normal;
+//     font-style: normal;
+// }
+// @font-face {
+//     font-family: 'assistantextralight';
+//     src: url('../assets/fonts/assistant/assistant-extralight-webfont.ttf') format('ttf'),
+//          url('../assets/fonts/assistant/assistant-extralight-webfont.woff2') format('woff2'),
+//          url('../assets/fonts/assistant/assistant-extralight-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+// @font-face {
+//     font-family: 'assistantlight';
+//     src: url('../assets/fonts/assistant/assistant-light-webfont.ttf') format('ttf'),
+//          url('../assets/fonts/assistant/assistant-light-webfont.woff2') format('woff2'),
+//          url('../assets/fonts/assistant/assistant-light-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+// @font-face {
+//     font-family: 'assistantregular';
+//     src: url('../assets/fonts/assistant/assistant-regular-webfont.ttf') format('ttf'),
+//          url('../assets/fonts/assistant/assistant-regular-webfont.woff2') format('woff2'),
+//          url('../assets/fonts/assistant/assistant-regular-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+// @font-face {
+//     font-family: 'assistantsemibold';
+//     src: url('../assets/fonts/assistant/assistant-semibold-webfont.ttf') format('ttf'),
+//          url('../assets/fonts/assistant/assistant-semibold-webfont.woff2') format('woff2'),
+//          url('../assets/fonts/assistant/assistant-semibold-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+
+// }
+
+
+/* Noto Serif */
+
+@font-face {
+    font-family: 'noto_serifbold';
+    src: url('../assets/fonts/noto-serif/notoserif-bold-webfont.ttf') format('ttf'),
+         url('../assets/fonts/noto-serif/notoserif-bold-webfont.woff2') format('woff2'),
+         url('../assets/fonts/noto-serif/notoserif-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'noto_serifbold_italic';
+    src: url('../assets/fonts/noto-serif/notoserif-bolditalic-webfont.ttf') format('ttf'),
+         url('../assets/fonts/noto-serif/notoserif-bolditalic-webfont.woff2') format('woff2'),
+         url('../assets/fonts/noto-serif/notoserif-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'noto_serifitalic';
+    src: url('../assets/fonts/noto-serif/notoserif-italic-webfont.ttf') format('ttf'),
+         url('../assets/fonts/noto-serif/notoserif-italic-webfont.woff2') format('woff2'),
+         url('../assets/fonts/noto-serif/notoserif-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'noto_serifregular';
+    src: url('../assets/fonts/noto-serif/notoserif-regular-webfont.ttf') format('ttf'),
+         url('../assets/fonts/noto-serif/notoserif-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/noto-serif/notoserif-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Open Sans */
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../assets/fonts/open-sans/opensans-bold-webfont.ttf') format('ttf'),
+         url('../assets/fonts/open-sans/opensans-bold-webfont.woff2') format('woff2'),
+         url('../assets/fonts/open-sans/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansbold_italic';
+    src: url('../assets/fonts/open-sans/opensans-bolditalic-webfont.ttf') format('ttf'),
+         url('../assets/fonts/open-sans/opensans-bolditalic-webfont.woff2') format('woff2'),
+         url('../assets/fonts/open-sans/opensans-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('../assets/fonts/open-sans/opensans-extrabold-webfont.ttf') format('ttf'),
+         url('../assets/fonts/open-sans/opensans-extrabold-webfont.woff2') format('woff2'),
+         url('../assets/fonts/open-sans/opensans-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansextrabold_italic';
+    src: url('../assets/fonts/open-sans/opensans-extrabolditalic-webfont.ttf') format('ttf'),
+         url('../assets/fonts/open-sans/opensans-extrabolditalic-webfont.woff2') format('woff2'),
+         url('../assets/fonts/open-sans/opensans-extrabolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('../assets/fonts/open-sans/opensans-italic-webfont.ttf') format('ttf'),
+         url('../assets/fonts/open-sans/opensans-italic-webfont.woff2') format('woff2'),
+         url('../assets/fonts/open-sans/opensans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../assets/fonts/open-sans/opensans-light-webfont.ttf') format('ttf'),
+         url('../assets/fonts/open-sans/opensans-light-webfont.woff2') format('woff2'),
+         url('../assets/fonts/open-sans/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanslight_italic';
+    src: url('../assets/fonts/open-sans/opensans-lightitalic-webfont.ttf') format('ttf'),
+         url('../assets/fonts/open-sans/opensans-lightitalic-webfont.woff2') format('woff2'),
+         url('../assets/fonts/open-sans/opensans-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../assets/fonts/open-sans/opensans-regular-webfont.ttf') format('ttf'),
+         url('../assets/fonts/open-sans/opensans-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/open-sans/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../assets/fonts/open-sans/opensans-semibold-webfont.ttf') format('ttf'),
+         url('../assets/fonts/open-sans/opensans-semibold-webfont.woff2') format('woff2'),
+         url('../assets/fonts/open-sans/opensans-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanssemibold_italic';
+    src: url('../assets/fonts/open-sans/opensans-semibolditalic-webfont.ttf') format('ttf'),
+         url('../assets/fonts/open-sans/opensans-semibolditalic-webfont.woff2') format('woff2'),
+         url('../assets/fonts/open-sans/opensans-semibolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Quicksand */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');  
+
+// @font-face {
+//     font-family: 'quicksandbold';
+//     src: url('../assets/fonts/quicksand/quicksand-bold-webfont.ttf') format('ttf'),
+//          url('../assets/fonts/quicksand/quicksand-bold-webfont.woff2') format('woff2'),
+//          url('../assets/fonts/quicksand/quicksand-bold-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+// @font-face {
+//     font-family: 'quicksandlight';
+//     src: url('../assets/fonts/quicksand/quicksand-light-webfont.ttf') format('ttf'),
+//          url('../assets/fonts/quicksand/quicksand-light-webfont.woff2') format('woff2'),
+//          url('../assets/fonts/quicksand/quicksand-light-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+// @font-face {
+//     font-family: 'quicksandmedium';
+//     src: url('../assets/fonts/quicksand/quicksand-medium-webfont.ttf') format('ttf'),
+//          url('../assets/fonts/quicksand/quicksand-medium-webfont.woff2') format('woff2'),
+//          url('../assets/fonts/quicksand/quicksand-medium-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+// @font-face {
+//     font-family: 'quicksandregular';
+//     src: url('../assets/fonts/quicksand/quicksand-regular-webfont.ttf') format('ttf'),
+//          url('../assets/fonts/quicksand/quicksand-regular-webfont.woff2') format('woff2'),
+//          url('../assets/fonts/quicksand/quicksand-regular-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+
+/* Styles */
+
+.intro h1 {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 50px;
+}
+
+h1 {
+    color: $pollen-dark-grey;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    margin: 0 0 1em 0;
+}
+
+h2 {
+    color: $pollen-medium-grey;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+p, li, blockquote {
+    color: $pollen-medium-grey;
+    font-family: 'Assistant', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+blockquote {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 60px;
+    background-image: url("/assets/img/quote-mark.png");
+    background-repeat: no-repeat;
+}
+
+strong {
+    color: $pollen-dark-grey;
+    font-family: 'Assistant', Arial, sans-serif;
+    font-weight: 600;
+}
+
+hr {
+    margin-top: 2vh;
+    margin-bottom: 0.5em;
+    background-color: $pollen-xx-light-grey;
+    border: 0;
+    height: 1px;
+}
+
+.small {
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.x-small {
+    font-family: 'Assistant', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 13px;
+}
+
+.x-large {
+    font-size: 10vh;
+    line-height: 10vh;
+}
+
+.primary-button span {
+    color: #fff;
+    font-family: 'Assistant', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 13px;
+}
+
+.secondary-button span {
+    color: $pollen-orange;
+    font-family: 'Assistant', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 13px;
+}
+
+/* Mobile */
+
+@media screen and (min-width: 325px) {
+
+    .intro h1 {
+        color: #fff;
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .headline {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    h1 {
+        font-size: 29px;
+        line-height: 38px;
+        margin-top: 0;
+    }
+
+    p, li, blockquote {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .small {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .x-small, button {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .primary-button span, .secondary-button span {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1281px) {
+
+    .intro h1 {
+        font-size: 4.8vw;
+        line-height: 80px;
+    }
+
+    .headline {
+        font-size: 4.8vw;
+        line-height: 80px;
+    }
+
+    h1 {
+        font-size: 2.6vw;
+        line-height: 3.0vw;
+    }
+
+    h2 {
+        font-size: 2.15vw;
+        line-height: 2.5vw;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    p, li, blockquote {
+        font-size: 1.2vw;
+        line-height: 1.7vw;
+    }
+
+    .small {
+        font-size: 1vw;
+        line-height: 22px;
+    }
+
+    .x-small {
+        font-size: 0.8vw;
+        line-height: 1.1vw;
+    }
+
+    .primary-button span, .secondary-button span {
+        font-size: 0.8vw;
+        line-height: 18px;
+    }
+
+    hr {
+        margin-top: 2vh;
+        margin-bottom: 1em;
+    }
+}

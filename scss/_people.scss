@@ -1,0 +1,227 @@
+#people {
+        height: auto;
+        min-height: 100vh;
+    }
+
+/* Accordion */
+
+.dropdown {
+    padding: 0 0 28px 0;
+    overflow: hidden;
+    border-bottom: $pollen-x-light-grey 1px solid;
+}
+
+.dropdown > div {
+    background: #fff;
+    padding: 0;
+}
+
+.dropdown > div:hover {
+    background: #333;
+    cursor:pointer;
+}
+
+.dropdown > div .fa,
+.dropdown > div h4 {
+    padding:0 1em;
+    line-height:40px;
+}
+
+.dropdown > div.selected,
+.dropdown > div:hover {
+    background: #fff;
+    color: #000;
+}
+
+.selected {
+    h2:before {
+        content: url(/assets/img/profile-close.png);
+    }
+}
+
+.dropdown > div > ul {
+    display: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 37px;;
+    width: calc(100% - 37px);
+    list-style: none;
+}
+
+.dropdown > div > ul > li {
+    padding: 0;
+    width: 47.5%;
+    float: left;
+}
+
+.dropdown > div > ul > li:nth-child(4n+5) {
+    clear: left;
+}
+
+.contents {
+    margin: 0 auto;
+    display: flex;  
+    li:nth-child(odd) {
+        padding: 30px 2.5% 0 0;
+    }
+    li:nth-child(even) {
+        padding: 30px 0 0 2.5%;
+    }
+}
+
+/*.dropdown > div > ul:last-child {
+    background: blue;
+}*/
+
+.dropdown > div > ul > li a:hover {
+    background: #fff;
+}
+
+/* .toggle > .togglebox { display:none; }
+ */
+
+/* Person Profile */
+
+.people-window {
+    background-color: #fff;
+    position: fixed;
+    z-index: 7000;
+    width: 90vw;
+    height: 90vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 5vw;
+    .window-profile-image {
+        display: none;
+    }
+}
+.people-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    h3, p {
+        margin-top: 0.5vh;
+        margin-bottom: 0.5rem;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+.featherlight-close-icon.featherlight-close {
+	display: none;
+	visibility: hidden;
+}
+
+
+@media screen and (min-width: 550px) {
+
+    .dropdown > div > ul > li {
+        width: 31.6666666%;
+    }
+    .contents {
+        li {
+            padding: 30px 2.5% 0 0;
+        }
+        li:nth-child(odd) {
+            padding: 30px 2.5% 0 0;
+        }
+        li:nth-child(even) {
+            padding: 30px 2.5% 0 0;
+        }
+        li:nth-child(3n) {
+            padding: 30px 0 0 0;
+        }
+    }
+
+}
+
+@media screen and (min-width: 771px) {
+
+    #people-header {
+        background: $pollen-dark-grey url("/assets/img/#") no-repeat top center;
+        background-size: cover;
+    }
+    .dropdown > div > ul > li {
+        width: 23.125%;
+    }
+    .contents {
+        li {
+            padding: 30px 2.5% 0 0;
+        }
+        li:nth-child(3n) {
+            padding: 30px 2.5% 0 0;
+        }
+        li:nth-child(4n) {
+            padding: 30px 0 0 0;
+        }
+    }
+    #people {
+        .section-logo {
+            margin-left: auto;
+            text-align: center;
+            display: block;
+        }
+        .grid-container {
+            padding: 0;
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: 5vh 55px 50px 18px auto auto auto 5vh;
+            grid-gap: 1%;
+        }
+        .section-logo {
+            grid-column: 1 / 2;
+            grid-row: 2 / 3;
+        }
+        .section-name {
+            grid-column: 3 / 11;
+            grid-row: 4 / 5;
+        }
+        .section-body {
+            grid-column: 3 / 11;
+            grid-row: 5 / 6;
+        }
+    }
+    .people-window {
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        .window-profile-container {
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-gap: 1%;
+
+        }
+        .window-profile-image {
+            display: block;
+            grid-column: 1 / 6;
+            grid-row: 1 / 8;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            img {
+                height: 100%;
+            }
+        }
+        .window-profile-text {
+            grid-column: 6 / 12;
+            grid-row: 1 / 6;
+        }
+        .scroll {
+            grid-column: 7 / 11;
+            grid-row: 6 / 7;
+        }
+        .scrollable {
+            padding-top: 12vh;
+            overflow: visible;
+        }
+    }
+}

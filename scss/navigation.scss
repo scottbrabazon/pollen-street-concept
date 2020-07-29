@@ -1,0 +1,106 @@
+
+.element.style {
+    margin-top: -93.5px;
+}
+
+#fp-nav.right {
+    right: 67px;
+}
+#fp-nav.right {
+    right: 17px;
+}
+
+@media screen and (min-width: 771px)
+
+#fp-nav, .side-navigation {
+    visibility: visible;
+}
+#fp-nav, .side-navigation {
+    visibility: hidden;
+}
+#fp-nav {
+    position: fixed;
+    z-index: 100;
+    margin-top: -32px;
+    top: 50%;
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+}
+
+#fp-nav ul, .fp-slidesNav ul {
+    margin: 0;
+    padding: 0;
+ }
+
+#fp-nav ul li, .fp-slidesNav ul li {
+    display: block;
+    width: 14px;
+    height: 13px;
+    margin: 7px;
+    position: relative;
+ }
+
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span {
+    height: 4px;
+    width: 4px;
+    margin: -4px 0 0 -4px;
+    border-radius: 0;
+    background: #afafac;
+    border: 2px solid #fff;
+    outline: 2px solid #afafac;
+}
+
+#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span {
+    height: 12px;
+    width: 12px;
+    margin: -6px 0 0 -6px;
+    border-radius: 100%;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    border-radius: 0;
+    position: absolute;
+    z-index: 1;
+    height: 4px;
+    width: 4px;
+    border: 0;
+    background: #dddddd;
+    left: 50%;
+    top: 50%;
+    margin: -2px 0 0 -2px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: #dddddd;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    height: 4px;
+    width: 4px;
+    border: 0;
+    background: #333;
+    left: 50%;
+    top: 50%;
+    margin: -2px 0 0 -2px;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+
+
+
+
+<div id="fp-nav" class="right" style="margin-top: -93.5px;"><ul><li><a href="#1" class=""><span></span></a></li><li><a href="#2" class="active"><span></span></a></li><li><a href="#3" class=""><span></span></a></li><li><a href="#4" class=""><span></span></a></li><li><a href="#5" class=""><span></span></a></li><li><a href="#6" class=""><span></span></a></li><li><a href="#7" class=""><span></span></a></li><li><a href="#8" class=""><span></span></a></li><li><a href="#9" class=""><span></span></a></li></ul></div>
+
+
+
+
+
+
+

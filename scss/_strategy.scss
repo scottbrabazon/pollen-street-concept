@@ -1,0 +1,157 @@
+/* Header */
+
+#strategy-header {
+    background: $pollen-dark-grey url("/assets/img/#") no-repeat top center;
+    .side-navigation-top {
+        height:  calc(50% - 100px);
+    }
+    .side-navigation-bottom {
+        height: calc(50% - 3px);
+    }
+}
+
+#strategy-investment-opportunities {
+    .dropdown > div > ul > li {
+        width: 100%;
+    }
+}
+
+/* Providing Capital. Financing Performance */
+
+#strategy-providing-capital {
+    .side-navigation-top {
+        height:  calc(50% - 100px);
+    }
+    .side-navigation-bottom {
+        height: calc(50% - 3px);
+    }
+}
+
+#strategy-investment-opportunities {
+    .side-navigation-top {
+        height:  calc(50% - 100px);
+    }
+    .side-navigation-bottom {
+        height: calc(50% - 3px);
+    }
+}
+
+#next.strategy {
+    .side-navigation-top {
+        height:  calc(50% - 100px);
+    }
+    .side-navigation-bottom {
+        height: calc(50% - 3px);
+    }
+}
+
+/* Investment Opportunities */
+
+#strategy-investment-opportunities {
+    .section-bg, .section-body-1, .section-body-2, .section-body-3,  {
+        display: none;
+    }
+}
+
+
+/* Desktop */
+
+@media screen and (min-width: 771px) {
+
+    #strategy-providing-capital {
+        .section-logo {
+            display: block;
+        }
+        .grid-container {
+            padding: 0;
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            grid-gap: 1%;
+        }
+        .section-logo {
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+            margin-right: auto;
+        }
+        .section-name {
+            p {text-align: left;}
+            grid-column: 3 / 6;
+            grid-row: 3 / 4;
+        }
+        .section-body {
+            grid-column: 3 / 6;
+            grid-row: 1 / 5;
+            .scrollable {
+                padding-top: 30vh;
+                height: 30vh;
+                overflow: hidden;
+            }
+        }
+        .section-image {
+            grid-column: 7 / 11;
+            grid-row: 3 / 4;
+        }
+    }
+
+    #strategy-investment-opportunities {
+        .section-logo {
+            display: block;
+        }
+        .grid-container {
+            padding: 0;
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: 1fr 10px 1fr 1fr 1fr 0.5fr 0.5fr 1fr 1fr 1fr 10px 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-gap: 1%;
+        }
+        .section-mobile {
+            display: none;
+        }
+        .section-header {
+            grid-column: 2 / 12;
+            grid-row: 2 / 3;
+        }
+        .section-body-1 {
+            display: block;
+            grid-column: 3 / 6;
+            grid-row: 3 / 4;
+            padding-bottom: 3vh;
+        }
+        .section-body-2 {
+            display: block;
+            grid-column: 6 / 8;
+            grid-row: 3 / 4;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h2 {
+                text-align: center;
+                color: #fff;
+                font-size: 1.2vw;
+                line-height: 1.5vw;
+            }
+        }
+        .section-body-3 {
+            display: block;
+            grid-column: 8 / 11;
+            grid-row: 3 / 4;
+            padding-bottom: 3vh;
+        }
+        .section-bg {
+            display: block;
+            grid-column: 2 / 12;
+            grid-row: 3 / 4;
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}

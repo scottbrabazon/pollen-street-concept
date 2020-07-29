@@ -1,0 +1,81 @@
+/* Header */
+
+#esg-intro {
+    background: $pollen-dark-grey url("/assets/img/sustrainable-inversting-bg.jpg") no-repeat top center;
+    background-size: cover;
+}
+
+#esg .section-header {
+    margin-bottom: 7vh;
+}
+
+#esg .esg-story {
+    display: none;
+    margin: 7vh 0;
+}
+
+#esg .esg-story.active {
+    display: block;
+}
+
+#esg .esg-button.active {
+    color: $pollen-orange;
+}
+
+
+@media screen and (min-width: 771px) {
+
+    #esg {
+        .esg-button.active {
+            color: $pollen-dark-grey;
+        }
+        h2 {
+            margin-top: 0;
+            color: $pollen-light-grey;
+        }
+        h2:hover {
+            color: $pollen-dark-grey;
+        }
+        hr {
+            margin: 2vh 0;
+        }
+        .esg-story {
+            margin: 0;
+            p {
+                margin: 0;
+            }
+        }
+        .section-logo {
+            margin-left: 0;
+            display: block;
+        }
+        .grid-container {
+            padding: 0;
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: 1fr auto auto 50vh 1fr;
+            grid-gap: 1%;
+        }
+        .section-logo {
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+        }
+        .section-header {
+            grid-column: 3 / 11;
+            grid-row: 3 / 4;
+            margin-bottom: 0;
+        }
+        .section-body-1 {
+            grid-column: 3 / 6;
+            grid-row: 4 / 5;
+            padding-right: 2vw;
+        }
+         .section-body-2 {
+            grid-column: 6 / 11;
+            grid-row: 4 / 5;
+        }
+    }
+}

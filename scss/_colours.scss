@@ -1,0 +1,28 @@
+$pollen-dark-grey: #22292d;
+$pollen-medium-grey: #575756;
+$pollen-light-grey: #919191;
+$pollen-x-light-grey: #afafac;
+$pollen-xx-light-grey: #dddddd;
+$pollen-orange: #e86b05;
+
+.dark-grey {
+	color: $pollen-dark-grey;
+}
+.medium-grey {
+	color: $pollen-medium-grey;
+}
+.light-grey {
+	color: $pollen-light-grey;
+}
+.x-light-grey {
+	color: $pollen-x-light-grey;
+}
+.xx-light-grey {
+	color: $pollen-xx-light-grey;
+}
+.pollen-orange {
+	color: $pollen-orange;
+}
+.tbc > * {
+    color: #ec008c;
+}
