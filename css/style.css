@@ -600,7 +600,7 @@ blockquote {
   margin-left: 0;
   margin-right: 0;
   padding-left: 60px;
-  background-image: url("/assets/img/quote-mark.png");
+  background-image: url("../assets/img/quote-mark.png");
   background-repeat: no-repeat; }
 
 strong {
@@ -704,7 +704,7 @@ hr {
 
 /* Burger menu */
 #burger-menu {
-  background: #22292d url("/assets/img/burger-menu-bg.jpg") no-repeat top center;
+  background: #22292d url("../assets/img/burger-menu-bg.jpg") no-repeat top center;
   background-size: cover;
   position: fixed;
   z-index: 3000;
@@ -1194,7 +1194,7 @@ a:focus {
   padding-left: 37px; }
 
 .accordion-trigger:before {
-  content: url(/assets/img/profile-open.png); }
+  content: url(../assets/img/profile-open.png); }
 
 .accordion-trigger:hover {
   color: #22292d; }
@@ -1289,7 +1289,7 @@ footer {
     text-align: left; } }
 
 .next-section {
-  background: #22292d url("/assets/img/homepage-next-bg.jpg") no-repeat top center;
+  background: #22292d url("../assets/img/homepage-next-bg.jpg") no-repeat top center;
   background-size: cover;
   padding-bottom: 3vh; }
   .next-section h1, .next-section p, .next-section blockquote {
@@ -1661,7 +1661,7 @@ p {
 
 /* From the Portfolio */
 .homepage-portfolio {
-  background: #22292d url("/assets/img/homepage-portfolio-bg.jpg") no-repeat top center;
+  background: #22292d url("../assets/img/homepage-portfolio-bg.jpg") no-repeat top center;
   background-size: cover; }
   .homepage-portfolio h1, .homepage-portfolio p, .homepage-portfolio blockquote {
     color: #fff; }
@@ -1689,19 +1689,19 @@ p {
     margin: 0 10px; }
 
 .section-client.active {
-  background: transparent url("/assets/img/polygon-active.png") no-repeat top center;
+  background: transparent url("../assets/img/polygon-active.png") no-repeat top center;
   background-size: contain;
   width: 200px;
   min-height: 70px; }
 
 .section-client {
-  background: transparent url("/assets/img/polygon.png") no-repeat top center;
+  background: transparent url("../assets/img/polygon.png") no-repeat top center;
   background-size: contain;
   width: 200px;
   min-height: 70px; }
 
 .section-client:hover {
-  background: transparent url("/assets/img/polygon-hover.png") no-repeat top center;
+  background: transparent url("../assets/img/polygon-hover.png") no-repeat top center;
   background-size: contain;
   width: 200px;
   min-height: 70px; }
@@ -1894,7 +1894,7 @@ p {
 
 /* Header */
 #strategy-header {
-  background: #22292d url("/assets/img/#") no-repeat top center; }
+  background: #22292d url("../assets/img/#") no-repeat top center; }
   #strategy-header .side-navigation-top {
     height: calc(50% - 100px); }
   #strategy-header .side-navigation-bottom {
@@ -2033,7 +2033,7 @@ p {
   color: #000; }
 
 .selected h2:before {
-  content: url(/assets/img/profile-close.png); }
+  content: url(../assets/img/profile-close.png); }
 
 .dropdown > div > ul {
   display: none;
@@ -2110,7 +2110,7 @@ p {
 
 @media screen and (min-width: 771px) {
   #people-header {
-    background: #22292d url("/assets/img/#") no-repeat top center;
+    background: #22292d url("../assets/img/#") no-repeat top center;
     background-size: cover; }
   .dropdown > div > ul > li {
     width: 23.125%; }
@@ -2214,7 +2214,7 @@ p {
       text-transform: uppercase;
       line-height: 10px; }
     .pop-up-portfolio .share p:after {
-      content: url(/assets/img/share.png); }
+      content: url(../assets/img/share.png); }
   .pop-up-portfolio .stats {
     grid-column: 4 / 11;
     grid-row: 6 / 7; }
@@ -2228,7 +2228,7 @@ p {
       color: #e86b05;
       text-transform: uppercase; }
     .pop-up-portfolio .footer-share p:after {
-      content: url(/assets/img/share.png); }
+      content: url(../assets/img/share.png); }
 
 .open.pop-up-portfolio {
   visibility: visible; }
@@ -2351,7 +2351,7 @@ p {
       color: #e86b05;
       text-transform: uppercase; }
     .news-window .share p:after {
-      content: url(/assets/img/share.png); }
+      content: url(../assets/img/share.png); }
   .news-window .image {
     grid-column: 3 / 11;
     grid-row: 6 / 7; }
@@ -2373,11 +2373,11 @@ p {
       color: #e86b05;
       text-transform: uppercase; }
     .news-window .footer-share p:after {
-      content: url(/assets/img/share.png); }
+      content: url(../assets/img/share.png); }
 
 /* Header */
 #esg-intro {
-  background: #22292d url("/assets/img/sustrainable-inversting-bg.jpg") no-repeat top center;
+  background: #22292d url("../assets/img/sustrainable-inversting-bg.jpg") no-repeat top center;
   background-size: cover; }
 
 #esg .section-header {
@@ -2435,7 +2435,7 @@ p {
     grid-row: 4 / 5; } }
 
 #about-header {
-  background: #22292d url("/assets/img/#") no-repeat top center; }
+  background: #22292d url("../assets/img/#") no-repeat top center; }
 
 #about-specialisation .section-image {
   display: none; }
@@ -2568,7 +2568,7 @@ p {
     grid-row: 6 / 7; } }
 
 #contact-header {
-  background: #22292d url("/assets/img/contact-bg.jpg") no-repeat top center;
+  background: #22292d url("../assets/img/contact-bg.jpg") no-repeat top center;
   background-size: cover;
   text-align: left; }
   #contact-header h1, #contact-header h2, #contact-header h3, #contact-header p {

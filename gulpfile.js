@@ -20,3 +20,8 @@ gulp.task('minify-css', function() {
     .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(gulp.dest('css'))
 });
+
+var ghpages = require('gh-pages');
+
+ghpages.publish('dist', function(err) {});
+ghpages.publish(dir, options, callback);
